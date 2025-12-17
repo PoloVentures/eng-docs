@@ -1,8 +1,8 @@
 {
-  "label": "Redis - Local Setup",
+  "label": "Redis",
   "position": 1,
   "link": {
     "type": "generated-index",
-    "description": "Set up Docker locally for development"
+    "description": "Set up Docker locally for Questy development with Redis."
   }
 }
