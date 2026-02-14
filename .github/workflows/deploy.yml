@@ -23,6 +23,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build website
+        env:
+          AUTH_PASSWORD: ${{ secrets.AUTH_PASSWORD }}
         run: npm run build
 
       - name: Upload Build Artifact
